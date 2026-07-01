@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="AgentFramework.Core/AgentFramework.Core.csproj" />
+  <Project Path="AgentFramework.Examples/AgentFramework.Examples.csproj" />
+  <Project Path="AgentFramework.Memory/AgentFramework.Memory.csproj" />
+  <Project Path="AgentFramework.Orchestration/AgentFramework.Orchestration.csproj" />
+  <Project Path="AgentFramework.Providers.OpenAI/AgentFramework.Providers.OpenAI.csproj" />
+</Solution>
