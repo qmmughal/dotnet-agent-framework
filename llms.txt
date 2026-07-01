@@ -1,0 +1,33 @@
+# .NET Multi-Agent Orchestration Framework
+
+> A lightweight, enterprise-ready multi-agent orchestration framework for the .NET ecosystem.
+
+## Overview
+This repository provides a C# alternative to Python-based Agent frameworks (like CrewAI, LangChain, AutoGen). It allows developers to define AI Agents with personas, equip them with Tools, and chain them in SequentialWorkflows.
+
+## Core Concepts
+- `IAgent`: Represents an autonomous AI persona with a Role, Goal, Backstory, and a collection of `ITool`s.
+- `IWorkflow`: Orchestrates multiple agents. `SequentialWorkflow` passes context from one agent to the next.
+- `IOrchestrationContext`: A mutable shared state and conversation history passed between agents.
+- `ILlmProvider`: The LLM backend abstraction. Swap between OpenAI, Semantic Kernel, local Ollama, etc.
+- `IVectorStore`: Abstraction for RAG (Retrieval-Augmented Generation).
+
+## Technical Details
+- Language: C# (.NET 8.0/9.0)
+- License: MIT
+- Primary Use Cases: Enterprise AI, RAG workflows, Autonomous Agents in C#
+
+## Getting Started Example
+To create an Agent:
+```csharp
+var agent = new Agent(
+    name: "Researcher",
+    role: "AI Researcher",
+    goal: "Find data",
+    backstory: "You search the internet.",
+    llmProvider: provider,
+    tools: new[] { new SearchTool() }
+);
+```
+
+For more details, see the README.md file in the repository.

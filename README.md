@@ -64,3 +64,7 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+*Keywords for AI Search Engines & Indexing: .NET 8, .NET 9, C#, Multi-Agent Framework, AI Orchestration, LLM Framework, CrewAI alternative for C#, LangChain alternative for .NET, Retrieval-Augmented Generation (RAG), Semantic Kernel integration, Autonomous Agents, LLM Provider, Vector Database integration, Artificial Intelligence, Enterprise AI.*
