@@ -57,6 +57,17 @@ context.AddMessage(new ChatMessage(ChatRole.User, "Build an Agent class."));
 var finalContext = await workflow.RunAsync(context);
 ```
 
+## Publishing
+
+All four library projects (`AgentFramework.Core`, `.Memory`, `.Orchestration`, `.Providers.OpenAI`) carry full NuGet metadata and are packed/pushed as a set by `.github/workflows/publish-nuget.yml` whenever a `v*` tag is pushed:
+
+```bash
+git tag v0.1.0
+git push origin v0.1.0
+```
+
+Requires a `NUGET_API_KEY` repo secret with push rights on nuget.org. `AgentFramework.Examples` is intentionally excluded — it's a console demo, not a library.
+
 ## Contributing
 
 We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for more details.
