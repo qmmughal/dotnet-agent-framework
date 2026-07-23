@@ -10,4 +10,16 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <PropertyGroup>
+    <PackageId>AgentFramework.Providers.OpenAI</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>Qaiser Mehmood</Authors>
+    <Description>OpenAI ILlmProvider implementation for AgentFramework.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/qmmughal/dotnet-agent-framework</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/qmmughal/dotnet-agent-framework</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>dotnet;ai-agents;openai;llm-provider;agent-framework</PackageTags>
+  </PropertyGroup>
+
 </Project>

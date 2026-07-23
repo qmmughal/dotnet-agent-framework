@@ -6,4 +6,16 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <PropertyGroup>
+    <PackageId>AgentFramework.Core</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>Qaiser Mehmood</Authors>
+    <Description>Core abstractions for a lightweight, enterprise-ready multi-agent orchestration framework for .NET — IAgent, ITool, IOrchestrationContext, ILlmProvider.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/qmmughal/dotnet-agent-framework</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/qmmughal/dotnet-agent-framework</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>dotnet;ai-agents;llm;orchestration;rag;agent-framework</PackageTags>
+  </PropertyGroup>
+
 </Project>
