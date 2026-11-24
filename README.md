@@ -79,3 +79,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 *Machine-readable repository context for AI agents and crawlers lives in [`llms.txt`](llms.txt).*
+
+## Books by the author
+
+- [*Building AI Agents with C# and .NET*](https://www.amazon.com/dp/B0HR12GJ3W) — Designing, tooling, and orchestrating AI agents in C# on .NET.
+- [*Building AI Agents with Python*](https://www.amazon.com/dp/B0HR1SQCXL) — Agent patterns in Python.
+- [*Evaluating and Shipping AI Agents*](https://www.amazon.com/dp/B0HRRP265M) — Testing, evaluation, and operations for agent systems.
+- [*Local vs Cloud LLMs for Business*](https://www.amazon.com/dp/B0HRRTZCYJ) — When to run models locally versus in the cloud.
+- [*Sovereign AI vs Cloud AI vs Offline AI*](https://www.amazon.com/dp/B0HSL5SXZ4) — Deployment choices around control, privacy, and connectivity.
+- [*Modernizing Legacy .NET with AI Agents*](https://mughalicious404.gumroad.com/l/modernizing-legacy-dotnet) — Migrating a .NET Framework 4.8 system to .NET 10 with AI agents (Kindle coming soon).
